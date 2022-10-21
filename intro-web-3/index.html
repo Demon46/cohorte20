@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción web 3</title>
+    <link rel="stylesheet" href="./styles/miestilo.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>Este es el título</header>
+
+    <!-- Navegación -->
+    <nav>
+        <!-- Ul: Enlaces sin orden - OL: Enlaces con orden -->
+        <ul class="nav-list">
+            <!-- li: Elementos de una lista -->
+            <!-- a: Etiqueta para usar enlaces - href: Para poner la dirección -->
+            <li><a href="./mishtmls/principal.html">Principal</a></li>
+            <li><a href="./mishtmls/fotos.html">Fotos</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="./ejercicio/index.html">Ejercicio</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Secciones -->
+        <section>
+            <div class="principal">
+                <h1>Artículos</h1>
+                <p><em>Lorem</em>, ipsum dolor sit amet consectetur adipisicing elit.<br> Excepturi unde fugiat reiciendis magni eum temporibus sint facere asperiores ipsum. Quibusdam quod similique excepturi alias? Reprehenderit et quos ullam corrupti optio repellat voluptate suscipit corporis esse necessitatibus! Quas incidunt facere quo.</p>
+            </div>
+            <!-- pre: Etiqueta que muestra un bloque de contenido formateado -->
+            <pre>
+                class Hola {
+                    public static void main(Strong [] oscar){
+                        System.out.println("Hola mundo!")
+                    }
+                }
+            </pre>
+            
+            <!-- figure: Etiqueta que muestra contenido independiente del resto de la página -->
+            <figure>
+                <!-- img: Para mostrar una imagen - Height: Para la altura de la imagen - Width: Para el ancho de la imagen -->
+                <img src="./img/black-eagle-3-1357314-4086262803.jpg" height="240px" width="240px" alt="black-eagle">
+                <!-- figcaption: Mostrar texto debajo de la imagen -->
+                <figcaption><em>Águila real de color negro</em></figcaption>
+            </figure>
+            
+            <p><i>Lorem</i>, ipsum dolor sit amet consectetur adipisicing <strong>elit</strong>. Aliquid fugiat consequuntur pariatur sequi nulla! Omnis alias harum eaque ullam nihil.</p>
+        </section>
+
+        <!-- aside: Contenido secundario -->
+        <aside>
+            <p>Cita del Artículo</p>
+
+            <div class="lists">
+                <ul>
+                    <li>Lunes</li>
+                    <li>Martes</li>
+                    <li>Miércoles</li>
+                    <li>Jueves</li>
+                    <li>Viernes</li>
+                    <li>Sábado</li>
+                    <li>Domingo</li>
+                </ul>
+    
+                <!-- type: El tipo de indice a mostrar en lista - reversed: Invertir el orden de la lista -->
+                <ol type="a" reversed>
+                    <li>Enero</li>
+                    <li>Febrero</li>
+                    <li>Marzo</li>
+                </ol>
+    
+                <!-- details: Genera una lista desplegable -->
+                <details>
+                    <!-- summary: El título de la lista (lo que está fuera del summary será el contenido a desplegar) -->
+                    <summary>Libros</summary>
+                    <p>Java</p>
+                    <p>Javascript</p>
+                    <p>HTML</p>
+                </details>
+            </div>
+
+            <!-- table: Creación de una tabla -->
+            <table>
+                <!-- tr: Crea una fila de una tabla - td: Crea una columna de una tabla -->
+                <tr>
+                    <!-- th: El encabezado de una tabla - colspan y rowspan: El tamaño que va a ocupar (según lo indicado) un encabezado -->
+                    <th colspan="4">Tabla</th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Nacionalidad</th>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Ramírez</td>
+                    <td>25</td>
+                    <td>Mexicano</td>
+                </tr>
+                <tr>
+                    <td>Oscar</td>
+                    <td>Reyes</td>
+                    <td>26</td>
+                    <td>Mexicano</td>
+                </tr>
+            </table>
+
+        </aside>
+    </main>
+
+    <!-- footer: pie de página del sitio -->
+    <footer>
+        <!-- adress: Permite ingrsar una dirección con un formato especial -->
+        <address>Venustiano Carranza, CDMX</address>
+        <!-- &copy: Es una combinación de teclas que va a mostrar un elemento en el documento -->
+        &copy; Todos los derechos reservados
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(27, 22, 22);
+    color: rgb(226, 249, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#header{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+nav{
+    margin: 10px auto 20px auto;
+}
+
+.nav-list{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(190, 239, 252);
+}
+
+.nav-list li{
+    margin: 10px auto;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+
+#principal{
+    padding: 3%;
+}
+
+.title{
+    margin: 20px auto;
+    color: rgb(152, 11, 239);
+}
+
+p{
+    margin: 10px auto 20px auto;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    box-shadow: 0 0 20px rgb(190, 239, 252);
+    border-radius: 20px;
+}
+
+figcaption{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje{
+    background-color: rgb(225, 225, 225);
+    padding: 1% 1%;
+    margin: auto 5px;
+    background-size: contain;
+}
+
+.scroll{
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: rgb(152, 11, 239);
+    padding: 1%;
+}

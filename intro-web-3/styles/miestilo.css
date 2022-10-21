@@ -1,0 +1,103 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(40, 40, 44);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    color: wheat;
+    padding: 1%;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1{
+    color: rgb(165, 200, 228);
+}
+
+p{
+    color: rgb(229, 168, 229);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: wheat;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 5px 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.principal{
+    /* min-height: 90vh; */
+    padding: 30px;
+    background: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, .60)), url(../img/paisagem.jpg) 50%/ cover;
+}
+
+pre{
+    color: rgb(154, 153, 153);
+    overflow: scroll;
+}
+
+img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+img:hover{
+    transition: all 1500ms ease;
+    box-shadow: 0 0 30px rgb(173, 4, 173);
+}
+
+figcaption{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(183, 174, 174);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.lists{
+    display: flex;
+    gap: 60px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: rgb(170, 15, 221);
+}
