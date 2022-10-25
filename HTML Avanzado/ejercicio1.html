@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="./assets/css/ejercicio1.css">
+</head>
+<body>
+    
+    <div class="card">
+        <div class="align">
+            <h1>Datos del comprador</h1>
+        </div>
+
+        <div class="container">
+
+            <form action="POST">
+                <div class="input">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="entry">
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="entry" required>
+                </div>
+                <div class="input">
+                    <label for="tel">Tel</label>
+                    <input type="tel" name="tel" id="tel" class="entry">
+                </div>
+                <div class="input">
+                    <label for="country">Pais</label>
+                    <input type="text" name="country" id="country" class="entry">
+                </div>
+            </form>
+
+        </div>
+
+        <div class="align">
+            <h1>Datos de la tarjeta</h1>
+        </div>
+        
+
+        <div class="container">
+
+            <form action="POST">
+                <div class="input">
+                    <label for="number">Número</label>
+                    <input type="number" name="number" id="number" class="entry">
+                </div>
+                <div class="input">
+                    <label for="name-card">Nombre</label>
+                    <input type="text" name="name-card" id="name-card" class="entry">
+                </div>
+            </form>
+
+        </div>
+
+        <p>-  -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -</p>
+        
+        <div>
+            <input type="submit" value="Confirmar pedido" class="button">
+        </div>
+    </div>
+
+</body>
+</html>

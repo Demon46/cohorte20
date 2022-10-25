@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    padding: 5px;
+}
+
+.card{
+    background-color: green;
+    border: solid 4px cornflowerblue;
+    border-radius: 10px;
+    padding: 80px 60px;
+}
+
+.container{
+    margin: 20px auto;
+}
+
+h1{
+    margin: 10px 0;
+}
+
+form{
+    margin: 10px 60px;
+}
+
+.input{
+    margin: .5px 0;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+
+.entry{
+    width: 280px;
+    border: solid 2px red;
+}
+
+p{
+    margin: 20px 0 10px 0;
+    font-weight: 900;
+    word-wrap:break-all;
+}
+
+.button{
+    color: black;
+    padding: 2px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+    <link rel="stylesheet" href="./assets/css/formularios.css">
+</head>
+<body>
+    
+    <!-- Elementos block: Abarcan el espacio necesario | Elementos inline: Abarcan todo el ancho disponible -->
+
+    <h1>formulario</h1>
+
+    <div class="card">
+        <div class="container">
+            <form action="POST">
+                <div>
+                    <label for="name">name</label>
+                    <input type="text" name="name" id="name" class="campo" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" class="campo" placeholder="Ingresa tu email" required>
+                </div>
+                <div>
+                    <label for="contraseña">password</label>
+                    <input type="password" name="password" id="password" class="campo" placeholder="Ingresa tu contraseña" required>
+                </div>
+                <div>
+                    <label for="message">message</label>
+                    <textarea name="" id="" cols="30" rows="10" class="campo"></textarea>
+                </div>
+                <div>
+                    <label for="remember">remember</label>
+                    <input type="checkbox" name="yes" id="yes">
+                </div>
+                <input type="file" accept="image/*">
+                <input type="button" class="button" value="haz click">
+                <input type="submit" class="button" value="enviar">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
