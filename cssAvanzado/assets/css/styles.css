@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat+Alternates:ital,wght@0,300;0,500;1,300;1,500&family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.padre{
+    font-size: 20px;
+}
+
+.parrafo1{
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.parrafo2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+/* My Site */
+h1{
+    margin: 2rem;
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 600;
+    font-size: 4rem;
+    border-bottom: solid 1rem rgb(0, 0, 255);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.text{
+    margin: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.card{
+    padding: 1rem;
+}
+
+.container{
+    background-color: rgb(78, 78, 97);
+    border-radius: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem black;
+}
+
+.subt{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.image{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    box-shadow: 0 0 2rem rgb(0, 0, 255);
+    border-radius: 50%;
+}
+
+.social-icons{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+a{
+    margin: .5rem 1rem;
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 0, 255);
+}
+
+footer{
+    background-color: rgb(52, 52, 52);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (min-width: 480px) {
+    body{
+        background-color: white;
+        color: black;
+    }
+}
