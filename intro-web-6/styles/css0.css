@@ -1,0 +1,20 @@
+
+.container{
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.uno{
+    background-color: aqua;
+    border-radius: 5rem;
+}
+
+.dos{
+    background-color: bisque;
+    border-radius: 5rem;
+}
+
+.tres{
+    background-color: rgb(255, 192, 168);
+    border-radius: 5rem;
+}
