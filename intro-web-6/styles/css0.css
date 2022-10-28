@@ -4,17 +4,64 @@
     border-radius: 2rem;
 }
 
+.col{
+    background-color: blue;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.subcol{
+    background-color: lightblue;
+    color: blue;
+}
+
 .uno{
     background-color: aqua;
-    border-radius: 5rem;
 }
 
 .dos{
     background-color: bisque;
-    border-radius: 5rem;
 }
 
 .tres{
-    background-color: rgb(255, 192, 168);
+    background-color: rgb(253, 206, 188);
+}
+
+.col-6{
+    background-color: rgb(185, 252, 185);
     border-radius: 5rem;
+}
+
+.nuno{
+    background-color: rgb(251, 200, 251);
+}
+
+.ntres{
+    background-color: rgb(231, 231, 231);
+}
+
+.card{
+    border: 2px solid blue;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-link{
+    border: 1px solid;
+}
+
+#liveAlertBtn, #liveAlertPlaceholder{
+    margin-top: 1rem;
+}
+
+@media (min-width: 720px) {
+    .buttons{
+        flex-direction: row;
+    }
 }

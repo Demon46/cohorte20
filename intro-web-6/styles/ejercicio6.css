@@ -1,0 +1,14 @@
+
+
+.container{
+    margin: 0;
+}
+
+.container-content{
+    min-width: calc(100vw - 0vw);
+}
+
+.col-pos{
+    margin: 0;
+    height: 8rem;
+}
