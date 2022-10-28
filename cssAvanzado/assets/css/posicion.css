@@ -1,0 +1,37 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    border: 3px dashed green;
+    height: 1200px;
+}
+
+.cuadro{
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+}
+
+.uno{
+    background-color: blue;
+    position: relative;
+    /* top: -50px; 
+    left: -100px; */
+}
+
+.dos{
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.tres{
+    background-color: green;
+    position:sticky;
+    top: 0px;
+}
