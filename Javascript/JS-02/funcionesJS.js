@@ -6,7 +6,7 @@ function miFuncion(name) {
     let nombre = name
 
     console.log(nombre)
-    
+
 }
 
 miFuncion(miNombre)
@@ -44,7 +44,7 @@ funcion2()
 let variableGlobal = 5
 
 function funcion3() {
-    
+
     let variableLocal = 'El valor es. '
 
     console.log(variableLocal + variableGlobal);
@@ -56,7 +56,7 @@ funcion3()
 //************************
 
 function funcion4(valor = 10) {
-    
+
     let numero = 6
 
     numero *= valor
@@ -112,14 +112,14 @@ precioTotal = calcularPrecioTotal(23.34);
 
 const imp = 1.16
 let env = 10
-let prec = Number(prompt('Ingresa el precio: '))
-let porc = Number(prompt('Ingresa el porcentaje: '))
+let prec = 3
+let porc = 16
 
 
 // Funcion Normal
 
 function calcularPrecioTotal(precio = 0) {
-    
+
     let precioTotal = (precio * imp) + env
 
     return precioTotal
@@ -131,7 +131,7 @@ console.log('Precio Total (Normal) = ', calcularPrecioTotal(prec));
 
 // Funcion Anonima
 
-let precioTotal1 = function (precio = 0){
+let precioTotal1 = function (precio = 0) {
 
     let total = (precio * imp) + env
 
@@ -162,15 +162,52 @@ let precioTotal3 = (precio = 0, porcentaje = 0) => (precio * (1 + (porcentaje * 
 
 console.log('Precio Total con Impuestos (Flecha) = ', precioTotal3(prec, porc));
 
+
+
 // Objetos
 
 let miObjeto = {
     nombre: "Juan",
-    edad: 30
+    edad: 30,
+    datos: function () {
+
+        let mensaje = 'Tu nombre es: ' + this.nombre
+
+        mensaje += ' y tienes ' + this.edad + " años"
+
+        console.log(mensaje);
+
+    }
 }
 
-let mensaje = 'Tu nombre es: ' + miObjeto.nombre
+miObjeto.datos()
 
-mensaje += ' y tienes ' + miObjeto["edad"] + " años"
+// Constructor de Objetos
 
-console.log(mensaje);
+let constructor = function (){
+    objPersona = {
+        nombre: "Juan",
+        nss: 2357,
+        datosPersona: function () {
+            let msj = 'Eres ' + this.nombre + ' y tu número de seguro social es ' + this.nss
+            console.log(msj)
+        },
+        otroMetodo: function (parametro) {
+            let numero = 8
+            console.log("La suma es: " + (numero + parametro));
+        }
+    }
+
+    return objPersona
+
+}
+
+/*
+
+Replicar la funcion de calcular precio total pero con objetos
+
+Parametro: Precio
+Atributos: Porcentaje, Gastos Envío 
+Metodos: Calcular precio total
+
+*/
