@@ -10,3 +10,47 @@ a{
     text-decoration: none;
 
 }
+
+#pokemon{
+
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    margin: auto 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(196, 196, 196);
+
+}
+
+#nombre{
+
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+
+}
+
+#content{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+#img{
+
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+#form{
+
+    display: flex;
+    justify-content: center;
+
+}
