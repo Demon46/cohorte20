@@ -14,6 +14,12 @@ class Persona{
 
     }
 
+    toString(){
+
+        return this.nombreCompleto().toString()
+
+    }
+
 }
 
 class Empleado extends Persona{
@@ -42,3 +48,4 @@ let emp1 = new Empleado('Oscar', 'Reyes', 'Google', 'Desarrollo', 1234, 30000)
 
 console.log(pers1.nombreCompleto());
 console.log(emp1.infoEmpleado());
+console.log(pers1.toString());
