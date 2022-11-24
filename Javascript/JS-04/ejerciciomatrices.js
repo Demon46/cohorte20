@@ -2,7 +2,6 @@
 let matriz1 = [[2, 5, 6], [5, 9, 7], [6, 4, 3]]
 let matriz2 = [[5, 3, 2], [8, 5, 4], [1, 4, 9]]
 let newArr = []
-let newArrGJ = []
 
 // Normal
 /*for (let i = 0; i < matriz1.length; i++) {

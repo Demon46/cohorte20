@@ -10,5 +10,10 @@ for (let i = 0; i < cadenaOriginal.length; i++) {
     
 }
 
+/*function invertirCadena(cad) {
+    return cad.split("").reverse().join("");
+}
+invertirCadena("hola");*/
+
 // Eliminando comas del arreglo y convirtiendolo en un String
 console.log(String(cadenaInvertida).replaceAll(',', ''));

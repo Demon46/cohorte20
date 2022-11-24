@@ -45,7 +45,7 @@ let variableGlobal = 5
 
 function funcion3() {
 
-    let variableLocal = 'El valor es. '
+    let variableLocal = 'El valor es: '
 
     console.log(variableLocal + variableGlobal);
 
